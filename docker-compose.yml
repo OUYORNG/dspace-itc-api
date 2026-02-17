@@ -21,6 +21,7 @@ services:
       # dspace__P__ui__P__url: http://localhost:4000
       dspace__P__server__P__url: https://dspace-api.mockexamkh.com/server
       dspace__P__ui__P__url: https://dspace.mockexamkh.com
+      rest__P__cors__P__allowed__D__origins: https://dspace.mockexamkh.com, http://localhost:4000
       dspace__P__name: 'DSpace Started with Docker Compose'
       # db.url: Ensure we are using the 'dspacedb' image for our database
       db__P__url: 'jdbc:postgresql://dspacedb:5432/dspace'
